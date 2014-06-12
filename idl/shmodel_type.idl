@@ -1,0 +1,17 @@
+struct shmodel_type
+{
+long length;//縦_index
+long width;//横
+long time;//時間
+
+long pop_length;
+long pop_width;
+long ind_length;
+long ind_width;
+
+sequence<double> s_data;//double型のシーケンス
+sequence<double> pop;
+sequence<double> ind;
+sequence<double> nume;
+sequence<double> deno;
+};
